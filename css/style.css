@@ -1,0 +1,30 @@
+ :root {
+    /* M3 Baseline Color Scheme (Light Mode) */
+    --md-sys-color-primary: #396A1E;
+    --md-sys-color-on-primary: #ffffff;
+    --md-sys-color-primary-container: #B9F399;
+    --md-sys-color-surface: #F8FAF0;
+    --md-sys-color-on-surface: #191C19;
+    --md-sys-color-outline: #757A6D;
+    --md-sys-typescale-body-large-font: 'Google Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Google Sans', sans-serif;
+    background-color: var(--md-sys-color-surface);
+    color: var(--md-sys-color-on-surface);
+}
+
+/* Top App Bar Styling */
+header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    background-color: var(--md-sys-color-surface);
+    border-bottom: 1px solid var(--md-sys-color-outline);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
