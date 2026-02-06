@@ -44,20 +44,18 @@
 
             <div class="card" style="background: white; border: 1px solid var(--md-sys-color-outline);">
                 <h2>Website</h2>
-                <md-filled-button
-                    @click=${showDialog}
-                    aria-label="Open a confirmation dialog">
-                      Where to find the archived website?</h3>
-                 <md-dialog>
-                  <div slot="headline">
-                    duckdroid.com/help says:
-                  </div>
-                  <form slot="content" id="form-id" method="dialog">
-                    <a href="https://web.archive.org">Wayback Machine</a>! You can explore the old and new websites on your Wayback Machine from Internet Archive.
-                  </form>
-                  <div slot="actions">
-                  <md-text-button form="form-id">Ok</md-text-button>
-                  </div>
+                <md-filled-button @click=${showDialog} aria-label="Open a dialog">
+                Where to find the archived website?
+                <md-dialog>
+                <div slot="headline">
+                duckdroid.com/help says:
+                </div>
+                <form slot="content" id="form-id" method="dialog">
+                <a href="https://web.archive.org">Wayback Machine</a>! You can explore the old and new websites on your Wayback Machine from Internet Archive.
+                </form>
+                <div slot="actions">
+                <md-text-button form="form-id">OK</md-text-button>
+                </div>
                 </md-dialog>
                 </md-filled-button>
                 <h3>Where to visit website repository?</h3>
