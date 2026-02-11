@@ -10,7 +10,7 @@
     --md-ref-typeface-brand: 'Google Sans';
     --md-ref-typeface-plain: sans-serif;
     /* Text Links */
-    --webkit-any-link: #396A1E;
+    -webkit-any-link: #396A1E;
 }
 
 import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
