@@ -13,14 +13,14 @@
 
 import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
 
-a {
- color: #396A1E;
- text-decoration: none;
-}
+       a {
+        color: var(--md-sys-color-on-primary);
+        text-decoration: none;
+       }
 
-a:hover {
- text-decoration: underline;
-}
+       a:hover {
+        text-decoration: underline;
+       }
 
 html {
  font-family: 'Google Sans', sans-serif;
@@ -28,7 +28,6 @@ html {
 
 body {
             margin: 0;
-            font-family: 'Google Sans', sans-serif;
             background-color: var(--md-sys-color-surface);
             color: var(--md-sys-color-on-surface);
         }
